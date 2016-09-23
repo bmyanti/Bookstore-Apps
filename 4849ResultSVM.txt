@@ -1,0 +1,43 @@
+
+
+ ===Evaluasi ALGORITMA SVM===
+Correctly Classified Instances        4846               99.9381 %
+Incorrectly Classified Instances         3                0.0619 %
+Kappa statistic                          0.6248
+K&B Relative Info Score            -42943717.8724 %
+K&B Information Score               -33590.3332 bits     -6.9273 bits/instance
+Class complexity | order 0              87.3041 bits      0.018  bits/instance
+Class complexity | scheme            10980.1533 bits      2.2644 bits/instance
+Complexity improvement     (Sf)     -10892.8492 bits     -2.2464 bits/instance
+Mean absolute error                      0.0622
+Root mean squared error                  0.1743
+Relative absolute error              10753.5152 %
+Root relative squared error           2041.9566 %
+Total Number of Instances             4849     
+
+=== Confusion Matrix ===
+
+    a    b    c    d    e    f    g    h    i    j    k    l    m    n    o    p    q    r    s    t    u    v    w   <-- classified as
+    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0 |    a = back
+    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0 |    b = teardrop
+    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    1    0    0    0    0    0    0    0 |    c = loadmodule
+    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0 |    d = neptune
+    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0 |    e = rootkit
+    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0 |    f = phf
+    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0 |    g = satan
+    0    0    0    0    0    0    0    2    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0 |    h = buffer_overflow
+    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0 |    i = ftp_write
+    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0 |    j = land
+    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0 |    k = spy
+    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0 |    l = ipsweep
+    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0 |    m = multihop
+    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0 |    n = smurf
+    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0 |    o = pod
+    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    1    0 |    p = perl
+    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0 |    q = warezclient
+    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0 |    r = nmap
+    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0 |    s = imap
+    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0 |    t = warezmaster
+    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0 |    u = portsweep
+    0    0    0    0    0    0    0    1    0    0    0    0    0    0    0    0    0    0    0    0    0 4844    0 |    v = normal
+    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0 |    w = guess_passwd

@@ -1,0 +1,25 @@
+
+
+ ===Evaluasi ALGORITMA KNN===
+Correctly Classified Instances        2127               98.8842 %
+Incorrectly Classified Instances        24                1.1158 %
+Kappa statistic                          0.9784
+K&B Relative Info Score             208347.904  %
+K&B Information Score                 2417.7222 bits      1.124  bits/instance
+Class complexity | order 0            2476.4856 bits      1.1513 bits/instance
+Class complexity | scheme               61.0602 bits      0.0284 bits/instance
+Complexity improvement     (Sf)       2415.4254 bits      1.1229 bits/instance
+Mean absolute error                      0.0051
+Root mean squared error                  0.0515
+Relative absolute error                  2.4305 %
+Root relative squared error             15.9895 %
+Total Number of Instances             2151     
+
+=== Confusion Matrix ===
+
+    a    b    c    d    e   <-- classified as
+  963    0    4    2    0 |    a = NORMAL
+    5   26    5    0    0 |    b = Probing
+    5    0 1128    0    0 |    c = DoS
+    2    0    0   10    0 |    d = R2L
+    1    0    0    0    0 |    e = U2R

@@ -1,0 +1,25 @@
+
+
+ ===Evaluasi ALGORITMA KNN-SVM===
+Correctly Classified Instances        4956               99.12   %
+Incorrectly Classified Instances        44                0.88   %
+Kappa statistic                          0.9881
+K&B Relative Info Score             493375.7729 %
+K&B Information Score                 9932.9685 bits      1.9866 bits/instance
+Class complexity | order 0           10064.0769 bits      2.0128 bits/instance
+Class complexity | scheme              256.6286 bits      0.0513 bits/instance
+Complexity improvement     (Sf)       9807.4483 bits      1.9615 bits/instance
+Mean absolute error                      0.0036
+Root mean squared error                  0.0492
+Relative absolute error                  1.2142 %
+Root relative squared error             12.801  %
+Total Number of Instances             5000     
+
+=== Confusion Matrix ===
+
+    a    b    c    d    e   <-- classified as
+ 1715    0    0    4    1 |    a = NORMAL
+    3  793    0    3    1 |    b = Probing
+    0    0 1300    0    0 |    c = DoS
+    5    2    0 1115    4 |    d = R2L
+    5    0    0   16   33 |    e = U2R

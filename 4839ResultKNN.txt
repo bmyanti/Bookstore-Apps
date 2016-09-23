@@ -1,0 +1,43 @@
+
+
+ ===Evaluasi ALGORITMA KNN===
+Correctly Classified Instances        4835               99.9173 %
+Incorrectly Classified Instances         4                0.0827 %
+Kappa statistic                          0     
+K&B Relative Info Score              82201.5513 %
+K&B Information Score                   58.6815 bits      0.0121 bits/instance
+Class complexity | order 0              81.2213 bits      0.0168 bits/instance
+Class complexity | scheme               22.5397 bits      0.0047 bits/instance
+Complexity improvement     (Sf)         58.6815 bits      0.0121 bits/instance
+Mean absolute error                      0.0001
+Root mean squared error                  0.0082
+Relative absolute error                 16.528  %
+Root relative squared error             95.765  %
+Total Number of Instances             4839     
+
+=== Confusion Matrix ===
+
+    a    b    c    d    e    f    g    h    i    j    k    l    m    n    o    p    q    r    s    t    u    v    w   <-- classified as
+    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0 |    a = back
+    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0 |    b = teardrop
+    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    1    0 |    c = loadmodule
+    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0 |    d = neptune
+    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0 |    e = rootkit
+    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0 |    f = phf
+    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0 |    g = satan
+    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    2    0 |    h = buffer_overflow
+    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0 |    i = ftp_write
+    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0 |    j = land
+    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0 |    k = spy
+    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0 |    l = ipsweep
+    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0 |    m = multihop
+    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0 |    n = smurf
+    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0 |    o = pod
+    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    1    0 |    p = perl
+    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0 |    q = warezclient
+    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0 |    r = nmap
+    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0 |    s = imap
+    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0 |    t = warezmaster
+    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0 |    u = portsweep
+    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0 4835    0 |    v = normal
+    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0 |    w = guess_passwd

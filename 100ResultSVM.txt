@@ -1,0 +1,25 @@
+
+
+ ===Evaluasi ALGORITMA SVM===
+Correctly Classified Instances          75               75      %
+Incorrectly Classified Instances        25               25      %
+Kappa statistic                          0.6675
+K&B Relative Info Score               6963.4398 %
+K&B Information Score                  157.4319 bits      1.5743 bits/instance
+Class complexity | order 0             226.651  bits      2.2665 bits/instance
+Class complexity | scheme            26850      bits    268.5    bits/instance
+Complexity improvement     (Sf)     -26623.349  bits   -266.2335 bits/instance
+Mean absolute error                      0.1   
+Root mean squared error                  0.3162
+Relative absolute error                 31.9135 %
+Root relative squared error             79.8833 %
+Total Number of Instances              100     
+
+=== Confusion Matrix ===
+
+  a  b  c  d  e   <-- classified as
+ 30  0  0  0  0 |  a = NORMAL
+  3 12  0  0  0 |  b = Probing
+  5  0 19  0  0 |  c = DoS
+  0  0  0 14  0 |  d = R2L
+ 17  0  0  0  0 |  e = U2R
